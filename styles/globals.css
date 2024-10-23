@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans font-normal text-base text-gray-800 bg-blue-200;
+  }
+}
+
+@layer utilities {
+  .roboto-thin {
+    @apply font-sans font-thin;
+  }
+  .roboto-light {
+    @apply font-sans font-light;
+  }
+  .roboto-regular {
+    @apply font-sans font-normal;
+  }
+  .roboto-medium {
+    @apply font-sans font-medium;
+  }
+  .roboto-bold {
+    @apply font-sans font-bold;
+  }
+  .roboto-black {
+    @apply font-sans font-black;
+  }
+  .roboto-thin-italic {
+    @apply font-sans font-thin italic;
+  }
+  .roboto-light-italic {
+    @apply font-sans font-light italic;
+  }
+  .roboto-regular-italic {
+    @apply font-sans font-normal italic;
+  }
+  .roboto-medium-italic {
+    @apply font-sans font-medium italic;
+  }
+  .roboto-bold-italic {
+    @apply font-sans font-bold italic;
+  }
+  .roboto-black-italic {
+    @apply font-sans font-black italic;
+  }
+}
+
+/* Add your global styles here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Add more global styles as needed */

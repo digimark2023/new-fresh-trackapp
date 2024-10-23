@@ -1,0 +1,41 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Next.js: Debug Full Stack (Dev)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "NEXT_PUBLIC_ENV=dev npm run dev",
+      "serverReadyAction": {
+        "pattern": "started server on .+, url: (https?://.+)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome"
+      }
+    },
+    {
+      "name": "Next.js: Debug Full Stack (Test)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "NEXT_PUBLIC_ENV=test npm run dev",
+      "serverReadyAction": {
+        "pattern": "started server on .+, url: (https?://.+)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome"
+      }
+    },
+    {
+      "name": "Next.js: Debug Full Stack (Prod)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "NEXT_PUBLIC_ENV=prod npm run dev",
+      "serverReadyAction": {
+        "pattern": "started server on .+, url: (https?://.+)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome"
+      }
+    }
+  ]
+}
